@@ -33,7 +33,7 @@ class Catalog_Brain(val AppName_param: String) {
       * -----------------
       * * In order to start a Spark Application, we should follow ...
       * * -----------------------------------------------------------
-      * * * create a SparkConf object,  hat contains information about your application, this called, conf,
+      * * * create a SparkConf object,  hat contains information about your application, this called, conf.
       * * * create a SparkContext object which tells Spark how to access a cluster, using "conf"
       *
       * */
@@ -43,11 +43,6 @@ class Catalog_Brain(val AppName_param: String) {
         this.mySparkContext = new SparkContext(conf) // Create a SparkContext instance
     }
 
-    /**
-    def read_dataset_txt(dataset_path: String): RDD[String] = {
-        val distFile: RDD[String] = this.mySparkContext.textFile("data.txt")
-    }
-    */
 }
 
 /**

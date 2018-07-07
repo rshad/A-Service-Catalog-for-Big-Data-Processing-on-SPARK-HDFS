@@ -1,7 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf73012-744f-4400-a6a8-39af844ed6d1" name="Default" comment="" />
+    <list default="true" id="4cf73012-744f-4400-a6a8-39af844ed6d1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__antlr_antlr_2_7_7_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_googlecode_javaewah_JavaEWAH_0_3_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_sun_istack_istack_commons_runtime_2_16_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_sun_xml_bind_jaxb_impl_2_2_7_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_sun_xml_fastinfoset_FastInfoset_1_2_12_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_parquet_hadoop_bundle_1_6_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_dbcp_commons_dbcp_1_4_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_1_3_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_pool_commons_pool_1_5_4_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_jdo_jdo_api_3_0_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_xml_bind_jsr173_api_1_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javolution_javolution_5_5_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_9_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__log4j_apache_log4j_extras_1_2_17_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_hydromatic_eigenbase_properties_1_1_5_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_antlr_ST4_4_0_4_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_antlr_antlr_runtime_3_4_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_antlr_stringtemplate_3_2_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_calcite_calcite_avatica_1_2_0_incubating_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_calcite_calcite_core_1_2_0_incubating_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_calcite_calcite_linq4j_1_2_0_incubating_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_derby_derby_10_10_2_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_3_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_3_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_7_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_7_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_7_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_0_incubating_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_generator_1_7_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_7_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_7_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_bagel_2_11_1_6_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_1_6_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_1_6_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_hive_2_11_1_6_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_1_6_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_repl_2_11_1_6_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_1_6_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_thrift_libfb303_0_9_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_thrift_libthrift_0_9_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_groovy_groovy_all_2_1_6_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_2_7_8_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_janino_2_7_8_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_datanucleus_datanucleus_api_jdo_3_2_6_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_datanucleus_datanucleus_core_3_2_10_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_datanucleus_datanucleus_rdbms_3_2_9_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_iq80_snappy_snappy_0_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jodd_jodd_core_3_5_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jpmml_pmml_agent_1_1_15_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jpmml_pmml_model_1_1_15_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jpmml_pmml_schema_1_1_15_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json_json_20090211_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_11_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_11_2_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spark_project_hive_hive_cli_1_2_1_spark_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spark_project_hive_hive_exec_1_2_1_spark_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spark_project_hive_hive_metastore_1_2_1_spark_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_2_11_0_7_4_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_7_4_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_sun_xml_bind_jaxb_impl_2_2_3_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_sun_xml_bind_jaxb_core_2_2_7_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_4_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_5_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_activation_activation_1_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_7_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__jline_jline_2_12_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spark-catalog.iml" afterPath="$PROJECT_DIR$/.idea/modules/spark-catalog.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2eaa7791947d11c275c9$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2eaa7791947d11c275c9.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2eaa7791947d11c275c9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$790f76fdb0d809c744ec$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$790f76fdb0d809c744ec.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$790f76fdb0d809c744ec.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7c4cd375727b720837e$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7c4cd375727b720837e.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7c4cd375727b720837e.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b9192ff354edb413e310$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b9192ff354edb413e310.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b9192ff354edb413e310.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb4ca52f60aca6dcbb64$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb4ca52f60aca6dcbb64.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb4ca52f60aca6dcbb64.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/spark-catalog-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/spark-catalog-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/spark-catalog-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/spark-catalog-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spark-catalog-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Catalog_Brain.scala" afterPath="$PROJECT_DIR$/src/main/scala/Catalog_Brain.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" />
+      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Catalog_Brain$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Catalog_Brain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/main$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog$sources/0.1/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog$sources/0.1/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog_2.11/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog_2.11/0.1/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog_2.11/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/spark-catalog_2.11/0.1/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-spark-catalog_2.11-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -26,14 +181,14 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48210025">
+    <splitter split-orientation="horizontal" split-proportion="0.48802084">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Catalog_Brain.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/Catalog_Brain.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-76">
-                  <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+                <state relative-caret-position="209">
+                  <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -45,11 +200,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                <state relative-caret-position="285">
+                  <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/build.sbt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -66,6 +233,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -76,9 +246,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/catalog_brain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Dependency.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/Catalog_Brain.scala" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
       </list>
     </option>
   </component>
@@ -110,7 +281,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -136,6 +309,11 @@
             <path>
               <item name="spark-catalog" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-catalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-catalog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-catalog" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +500,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1530963755283" />
+    <option name="lastUpdateTimestamp" value="1530989745368" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -379,21 +557,21 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119791664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -412,7 +590,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -444,28 +624,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="19">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Catalog_Brain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        <state relative-caret-position="209">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
