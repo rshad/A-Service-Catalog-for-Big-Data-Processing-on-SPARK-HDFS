@@ -11,17 +11,18 @@ object main {
 
         val data = Array(1, 2, 3, 4, 5)
         val distData = sc.parallelize(data)
-        println("adasdadas")
 
         val spark = SparkSession
             .builder()
-            .appName("SparkSessionZipsExample")
-            .config("spark.sql.warehouse.dir", warehouseLocation)
+            .appName("appName")
             .enableHiveSupport()
             .getOrCreate()
 
+        val spark_home = sys.env("SPARK_HOME")
+
         // Load training data
-        val training = spark.read.format("libsvm").load("data/mllib/sample_libsvm_data.txt")
+        val training = spark.read.format("libsvm").load(spark_home.concat("/data/mllib/sample_libsvm_data.txt"))
+
 
         val lr = new LogisticRegression()
             .setMaxIter(10)

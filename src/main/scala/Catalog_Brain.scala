@@ -39,7 +39,10 @@ class Catalog_Brain(val AppName_param: String) {
       * */
     def create_spark_context(): Unit = {
         // create a SparkConf instance ...
-        val conf = new SparkConf().setAppName(this.AppName).setMaster("local").set("spark.driver.allowMultipleContexts", "true");
+        val conf = new SparkConf()
+            .setAppName(this.AppName)
+            .setMaster("local")
+            .set("spark.driver.allowMultipleContexts", "true");
         this.mySparkContext = new SparkContext(conf) // Create a SparkContext instance
     }
 
