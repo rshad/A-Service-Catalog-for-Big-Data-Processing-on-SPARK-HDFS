@@ -1,4 +1,5 @@
-import org.apache.spark.{SparkConf, SparkContext}
+package spark_catalog_package
+
 import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.sql.SparkSession
 
@@ -6,7 +7,9 @@ object main {
     def main(args: Array[String]): Unit = {
         var cat_coordinator = Catalog_Coordinator("myApp","local")
 
+        cat_coordinator.start_spark_session()
         val spark: SparkSession = cat_coordinator.get_SparkSession()
+
 
         val sc_ = spark.sparkContext
         val data = Array(1, 2, 3, 4, 5)

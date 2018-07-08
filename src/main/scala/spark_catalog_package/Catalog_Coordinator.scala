@@ -1,9 +1,10 @@
-import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.SparkSession
+package spark_catalog_package
+
 import org.apache.spark.SparkContext
+import org.apache.spark.sql.SparkSession
 
 /**
-  * Catalog_Coordinator class, contains all the required functionalities for our catalog.
+  * spark_catalog_package.Catalog_Coordinator class, contains all the required functionalities for our catalog.
   *
   * Functionalities like:
   * --------------------
@@ -23,10 +24,10 @@ class Catalog_Coordinator(val AppName_param: String, val Master_IP_param: String
 
     private val AppName: String = AppName_param // represents the application name
     private val Master_IP: String = Master_IP_param // The master node IP
-    private var dataset = ??? // The class associated dataset. Can be adapted to any type of datasets ..
-                              //  .. { CSV, txt, ... }
-    private var mySparkContext: SparkContext = ??? // SparkContext instance
-    private var mySparkSession: SparkSession = ??? // SparkSession instance
+    private var dataset = null // The class associated dataset. Can be adapted to any type of datasets ..
+                               //  .. { CSV, txt, ... }
+    private var mySparkContext: SparkContext = _ // SparkContext instance
+    private var mySparkSession: SparkSession = _ // SparkSession instance
 
 
     /**
@@ -77,12 +78,12 @@ class Catalog_Coordinator(val AppName_param: String, val Master_IP_param: String
 }
 
 /**
-  * Companion object, offers a functions to work with Catalog_Coordinator's class objects
+  * Companion object, offers a functions to work with spark_catalog_package.Catalog_Coordinator's class objects
   */
 object Catalog_Coordinator {
 
     /**
-     * used to create a new object of the class Catalog_Coordinator, with no need to call <new> method
+     * used to create a new object of the class spark_catalog_package.Catalog_Coordinator, with no need to call <new> method
      * @param AppName_param, String, represents the application name
      */
     def apply(AppName_param: String, Master_IP_param: String): Catalog_Coordinator = {
