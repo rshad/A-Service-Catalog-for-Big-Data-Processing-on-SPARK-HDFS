@@ -19,51 +19,21 @@ import org.apache.spark.sql.SparkSession
 
 object main {
     def main(args: Array[String]): Unit = {
+
         var cat_coordinator = Catalog_Coordinator("myApp","local")
+
+        val spark_home = sys.env("SPARK_HOME")
+        val dataset_path = spark_home.concat("/data/mllib/sample_libsvm_data.txt")
 
         cat_coordinator.start_spark_session()
         val spark: SparkSession = cat_coordinator.get_SparkSession()
 
+        Algorithms.spark_session = spark
+        Algorithms.dataset_path = dataset_path
 
-        val sc_ = spark.sparkContext
-        val data = Array(1, 2, 3, 4, 5)
-        val distData = sc_.parallelize(data)
+        var array_ = new Array[String](0)
+        classification_LSVM.main(array_)
 
-        val spark_home = sys.env("SPARK_HOME")
 
-        // Load training data
-        val training = spark.read.format("libsvm").load(spark_home.concat("/data/mllib/sample_libsvm_data.txt"))
-
-        val textFile: RDD[String] = cat_coordinator.read_dataset_into_RDD(spark_home.concat("/data/mllib/sample_libsvm_data.txt"))
-        val counts = textFile.flatMap(line => line.split(" "))
-            .map(word => (word, 1))
-            .reduceByKey(_ + _)
-        counts.saveAsTextFile("./counts")
-
-        /*
-        val lr = new LogisticRegression()
-            .setMaxIter(10)
-            .setRegParam(0.3)
-            .setElasticNetParam(0.8)
-
-        // Fit the model
-        val lrModel = lr.fit(training)
-
-        // Print the coefficients and intercept for logistic regression
-        println(s"Coefficients: ${lrModel.coefficients} Intercept: ${lrModel.intercept}")
-
-        // We can also use the multinomial family for binary classification
-        val mlr = new LogisticRegression()
-            .setMaxIter(10)
-            .setRegParam(0.3)
-            .setElasticNetParam(0.8)
-            .setFamily("multinomial")
-
-        val mlrModel = mlr.fit(training)
-
-        // Print the coefficients and intercepts for logistic regression with multinomial family
-        println(s"Multinomial coefficients: ${mlrModel.coefficientMatrix}")
-        println(s"Multinomial intercepts: ${mlrModel.interceptVector}")
-    */
     }
 }

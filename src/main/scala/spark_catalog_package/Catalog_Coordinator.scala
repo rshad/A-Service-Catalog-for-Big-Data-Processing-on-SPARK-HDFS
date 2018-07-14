@@ -29,6 +29,7 @@ class Catalog_Coordinator(val AppName_param: String, val Master_IP_param: String
     private val Master_IP: String = Master_IP_param // The master node IP
     private var dataset = null // The class associated dataset. Can be adapted to any type of datasets ..
                                //  .. { CSV, txt, ... }
+    private var dataset_path = ""
     private var mySparkContext: SparkContext = _ // SparkContext instance
     private var mySparkSession: SparkSession = _ // SparkSession instance
 
@@ -99,20 +100,6 @@ class Catalog_Coordinator(val AppName_param: String, val Master_IP_param: String
         textFile
     }
 
-    /**
-      * load_text_dataset_into_RDD_SVM_file, Load training data in LIBSVM format
-      * Loads binary labeled data in the LIBSVM format into an RDD[LabeledPoint], with number of
-      * features determined automatically and the default number of partitions.
-      *
-      * @param dataset_path, a String, represents the path to the dataset to load.
-      */
-    def load_text_dataset_into_RDD_SVM_file(dataset_path: String): RDD[LabeledPoint] = {
-        import org.apache.spark.mllib.util.MLUtils
-
-        val data: RDD[LabeledPoint] = MLUtils.loadLibSVMFile(this.mySparkContext, dataset_path)
-        data
-    }
-
 
     /**
       * load_rdd_in_memory, a function used to load a RDD into memory
@@ -133,6 +120,24 @@ class Catalog_Coordinator(val AppName_param: String, val Master_IP_param: String
         rdd.cache
     }
 
+    /**
+      *
+      * parse_dataset_as_rdd_LabledPoint, parse RDD vector as an RDD of LabeledPoint
+      * @param data, the data to parse as RDD
+      * @return an object of RDD[LabeledPoint]
+      *
+      * */
+    def parse_dataset_as_rdd_LabledPoint(data: RDD[String]): RDD[LabeledPoint] = {
+        import org.apache.spark.mllib.linalg.Vectors
+
+        data.map { line =>
+            val parts = line.split(',').map(_.toDouble)
+            LabeledPoint(parts(0), Vectors.dense(parts.tail))
+        }
+    }
+
+
+
 
 
 
@@ -148,27 +153,6 @@ object Catalog_Coordinator {
     def apply(AppName_param: String, Master_IP_param: String): Catalog_Coordinator = {
         new Catalog_Coordinator(AppName_param,Master_IP_param)
     }
-
-}
-
-
-/**
-  * auxiliary_csv_loader, header class that uses a parsed version of the first row of a csv dataset
-  *
-  * @param header, an Array of String's, represents the first line of a csv dataset
-  * */
-case class auxiliary_csv_loader(header: Array[String]) extends Serializable{
-    // creating a map of pairs formed by the header elements and their indexes
-    val index: Map[String, Int] = header.zipWithIndex.toMap
-
-    /**
-      * apply, used to get a column of the header givin as an array, this column is determined by a key
-      *
-      * @param array, an Array of String's which contains the columns names found in a header line.
-      * @param key, the name of the column to get
-      * @return a String, which represents the column name represented by 'key'
-      */
-    def apply(array:Array[String], key:String):String = array(index(key))
 }
 
 
