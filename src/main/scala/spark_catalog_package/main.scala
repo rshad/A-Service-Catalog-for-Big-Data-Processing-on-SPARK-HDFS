@@ -20,18 +20,25 @@ import org.apache.spark.sql.SparkSession
 object main {
     def main(args: Array[String]): Unit = {
 
-        var cat_coordinator = Catalog_Coordinator("myApp","local")
+        // Catalog_Coordinator object, used to manage our spark session
+        val cat_coordinator = Catalog_Coordinator("myApp", "local")
 
+        // Get the value of the environment variable of the home of Spark
         val spark_home = sys.env("SPARK_HOME")
+
+        // Form the dataset path
         val dataset_path = spark_home.concat("/data/mllib/sample_libsvm_data.txt")
 
+        // Start a spark session
         cat_coordinator.start_spark_session()
         val spark: SparkSession = cat_coordinator.get_SparkSession()
 
+        // Initializing Algorithm's object variables
         Algorithms.spark_session = spark
         Algorithms.dataset_path = dataset_path
 
-        var array_ = new Array[String](0)
+        // Proceeding ...
+        val array_ = new Array[String](0)
         classification_LSVM.main(array_)
 
 

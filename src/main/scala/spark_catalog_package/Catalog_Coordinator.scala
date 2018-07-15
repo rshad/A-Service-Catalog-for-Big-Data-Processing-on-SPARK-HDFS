@@ -1,3 +1,5 @@
+
+
 package spark_catalog_package
 
 import org.apache.spark.SparkContext
@@ -136,7 +138,9 @@ class Catalog_Coordinator(val AppName_param: String, val Master_IP_param: String
         }
     }
 
+    def store_data_into_hdfs(): Unit = {
 
+    }
 
 
 
